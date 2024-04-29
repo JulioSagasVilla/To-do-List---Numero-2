@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Task List Styles */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-info {
+  flex-grow: 1;
+}
+
+.remove-task {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add Task Styles */
+.add-task {
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-task button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Edit Task Styles */
+.edit-task {
+  margin-bottom: 20px;
+}
+
+.edit-task input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.edit-task .buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.edit-task .buttons button {
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-task .buttons button:last-child {
+  background-color: #ff4d4d;
+}
